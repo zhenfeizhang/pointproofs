@@ -27,4 +27,4 @@ name = "bench"
 harness = false
 
 [features]
-parallel = []
+parallel = [ "ark-ec/parallel" ]
