@@ -1,9 +1,11 @@
 #![allow(dead_code)]
 
+mod kzg;
 mod param;
 mod vc;
 
 use ark_ec::PairingEngine;
+pub use kzg::*;
 pub use param::ProverParam;
 pub use param::StructuredReferenceString;
 pub use param::VerifierParam;
