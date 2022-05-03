@@ -1,0 +1,326 @@
+
+Gnuplot not found, using plotters backend
+ttt 4/kzg_setup         time:   [6.4728 ms 6.4956 ms 6.5187 ms]                            
+                        change: [+0.0380% +0.5213% +1.0234%] (p = 0.04 < 0.05)
+                        Change within noise threshold.
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+ttt 4/pps_setup         time:   [3.8252 ms 3.8584 ms 3.8971 ms]                             
+                        change: [-39.955% -39.228% -38.527%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high severe
+Benchmarking ttt 4/kzg_commit: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 6.9s, enable flat sampling, or reduce sample count to 50.
+ttt 4/kzg_commit        time:   [1.3442 ms 1.3544 ms 1.3646 ms]                              
+                        change: [+2.0507% +3.2747% +4.5266%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 10 outliers among 100 measurements (10.00%)
+  5 (5.00%) low mild
+  5 (5.00%) high mild
+ttt 4/pps_commit        time:   [813.06 us 818.50 us 824.47 us]                             
+                        change: [-0.4789% +0.2404% +0.9927%] (p = 0.53 > 0.05)
+                        No change in performance detected.
+Found 3 outliers among 100 measurements (3.00%)
+  1 (1.00%) low mild
+  2 (2.00%) high mild
+ttt 4/kzg_prove         time:   [842.61 us 848.48 us 854.53 us]                            
+                        change: [+2.2821% +3.1217% +3.9377%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+ttt 4/pps_prove         time:   [827.82 us 831.92 us 835.95 us]                            
+                        change: [-1.9351% -1.1094% -0.2896%] (p = 0.01 < 0.05)
+                        Change within noise threshold.
+ttt 4/kzg_verify        time:   [3.9078 ms 4.0375 ms 4.2156 ms]                              
+                        change: [-13.294% -6.5699% +0.6796%] (p = 0.08 > 0.05)
+                        No change in performance detected.
+Found 17 outliers among 100 measurements (17.00%)
+  4 (4.00%) high mild
+  13 (13.00%) high severe
+ttt 4/pps_verify        time:   [2.3177 ms 2.4062 ms 2.5149 ms]                              
+                        change: [+2.8719% +6.8456% +11.277%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 12 outliers among 100 measurements (12.00%)
+  4 (4.00%) high mild
+  8 (8.00%) high severe
+
+ttt 16/kzg_setup        time:   [7.7052 ms 7.7302 ms 7.7556 ms]                             
+                        change: [-0.6988% -0.2158% +0.2739%] (p = 0.39 > 0.05)
+                        No change in performance detected.
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) low mild
+ttt 16/pps_setup        time:   [6.0693 ms 6.0895 ms 6.1102 ms]                             
+                        change: [-69.576% -69.471% -69.353%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Benchmarking ttt 16/kzg_commit: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 7.3s, enable flat sampling, or reduce sample count to 50.
+ttt 16/kzg_commit       time:   [1.4493 ms 1.4600 ms 1.4698 ms]                               
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) low mild
+ttt 16/pps_commit       time:   [812.66 us 816.85 us 821.04 us]                              
+Benchmarking ttt 16/kzg_prove: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 5.2s, enable flat sampling, or reduce sample count to 60.
+ttt 16/kzg_prove        time:   [1.0152 ms 1.0197 ms 1.0245 ms]                              
+Found 8 outliers among 100 measurements (8.00%)
+  3 (3.00%) low mild
+  4 (4.00%) high mild
+  1 (1.00%) high severe
+ttt 16/pps_prove        time:   [820.25 us 823.92 us 828.08 us]                             
+Found 3 outliers among 100 measurements (3.00%)
+  3 (3.00%) high mild
+ttt 16/kzg_verify       time:   [4.0437 ms 4.1369 ms 4.2485 ms]                               
+Found 3 outliers among 100 measurements (3.00%)
+  1 (1.00%) high mild
+  2 (2.00%) high severe
+ttt 16/pps_verify       time:   [2.5100 ms 2.6087 ms 2.7177 ms]                               
+Found 10 outliers among 100 measurements (10.00%)
+  5 (5.00%) high mild
+  5 (5.00%) high severe
+
+ttt 64/kzg_setup        time:   [7.9187 ms 7.9598 ms 8.0014 ms]                             
+Found 5 outliers among 100 measurements (5.00%)
+  5 (5.00%) high mild
+ttt 64/pps_setup        time:   [5.3344 ms 5.3864 ms 5.4381 ms]                              
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking ttt 64/kzg_commit: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 9.2s, enable flat sampling, or reduce sample count to 50.
+ttt 64/kzg_commit       time:   [1.7943 ms 1.8061 ms 1.8181 ms]                               
+Found 4 outliers among 100 measurements (4.00%)
+  4 (4.00%) high mild
+Benchmarking ttt 64/pps_commit: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 5.3s, enable flat sampling, or reduce sample count to 60.
+ttt 64/pps_commit       time:   [1.0415 ms 1.0439 ms 1.0463 ms]                               
+Found 3 outliers among 100 measurements (3.00%)
+  1 (1.00%) low severe
+  1 (1.00%) low mild
+  1 (1.00%) high mild
+Benchmarking ttt 64/kzg_prove: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 7.3s, enable flat sampling, or reduce sample count to 50.
+ttt 64/kzg_prove        time:   [1.4603 ms 1.4693 ms 1.4777 ms]                              
+Found 5 outliers among 100 measurements (5.00%)
+  1 (1.00%) low mild
+  3 (3.00%) high mild
+  1 (1.00%) high severe
+Benchmarking ttt 64/pps_prove: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 5.3s, enable flat sampling, or reduce sample count to 60.
+ttt 64/pps_prove        time:   [1.0520 ms 1.0550 ms 1.0583 ms]                              
+Found 10 outliers among 100 measurements (10.00%)
+  1 (1.00%) low mild
+  7 (7.00%) high mild
+  2 (2.00%) high severe
+ttt 64/kzg_verify       time:   [3.9062 ms 4.0485 ms 4.2159 ms]                               
+Found 19 outliers among 100 measurements (19.00%)
+  3 (3.00%) high mild
+  16 (16.00%) high severe
+ttt 64/pps_verify       time:   [2.2076 ms 2.2179 ms 2.2313 ms]                               
+Found 6 outliers among 100 measurements (6.00%)
+  2 (2.00%) high mild
+  4 (4.00%) high severe
+
+ttt 256/kzg_setup       time:   [10.302 ms 10.344 ms 10.388 ms]                              
+Found 3 outliers among 100 measurements (3.00%)
+  1 (1.00%) low mild
+  2 (2.00%) high mild
+ttt 256/pps_setup       time:   [11.711 ms 11.792 ms 11.873 ms]                              
+Found 3 outliers among 100 measurements (3.00%)
+  2 (2.00%) low mild
+  1 (1.00%) high mild
+ttt 256/kzg_commit      time:   [2.0632 ms 2.0743 ms 2.0856 ms]                                
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high severe
+Benchmarking ttt 256/pps_commit: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 6.7s, enable flat sampling, or reduce sample count to 60.
+ttt 256/pps_commit      time:   [1.3232 ms 1.3261 ms 1.3293 ms]                                
+Found 5 outliers among 100 measurements (5.00%)
+  1 (1.00%) low severe
+  1 (1.00%) low mild
+  3 (3.00%) high mild
+Benchmarking ttt 256/kzg_prove: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 8.1s, enable flat sampling, or reduce sample count to 50.
+ttt 256/kzg_prove       time:   [1.5735 ms 1.5808 ms 1.5881 ms]                               
+Found 6 outliers among 100 measurements (6.00%)
+  5 (5.00%) low mild
+  1 (1.00%) high mild
+Benchmarking ttt 256/pps_prove: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 6.7s, enable flat sampling, or reduce sample count to 60.
+ttt 256/pps_prove       time:   [1.3318 ms 1.3342 ms 1.3367 ms]                               
+Found 12 outliers among 100 measurements (12.00%)
+  1 (1.00%) low severe
+  1 (1.00%) low mild
+  8 (8.00%) high mild
+  2 (2.00%) high severe
+ttt 256/kzg_verify      time:   [3.8192 ms 3.8203 ms 3.8218 ms]                                
+Found 8 outliers among 100 measurements (8.00%)
+  3 (3.00%) high mild
+  5 (5.00%) high severe
+ttt 256/pps_verify      time:   [2.5801 ms 2.6960 ms 2.8189 ms]                                
+Found 9 outliers among 100 measurements (9.00%)
+  9 (9.00%) high mild
+
+ttt 1024/kzg_setup      time:   [12.550 ms 12.610 ms 12.668 ms]                               
+ttt 1024/pps_setup      time:   [35.242 ms 35.325 ms 35.410 ms]                               
+Found 8 outliers among 100 measurements (8.00%)
+  1 (1.00%) low mild
+  7 (7.00%) high mild
+ttt 1024/kzg_commit     time:   [3.6702 ms 3.6884 ms 3.7067 ms]                                 
+Found 4 outliers among 100 measurements (4.00%)
+  1 (1.00%) low mild
+  3 (3.00%) high mild
+ttt 1024/pps_commit     time:   [2.4965 ms 2.5039 ms 2.5115 ms]                                 
+ttt 1024/kzg_prove      time:   [2.9996 ms 3.0052 ms 3.0110 ms]                                
+Found 12 outliers among 100 measurements (12.00%)
+  2 (2.00%) low mild
+  9 (9.00%) high mild
+  1 (1.00%) high severe
+ttt 1024/pps_prove      time:   [2.5128 ms 2.5198 ms 2.5272 ms]                                
+Found 3 outliers among 100 measurements (3.00%)
+  3 (3.00%) high mild
+ttt 1024/kzg_verify     time:   [3.9398 ms 4.0056 ms 4.0800 ms]                                 
+Found 20 outliers among 100 measurements (20.00%)
+  1 (1.00%) high mild
+  19 (19.00%) high severe
+ttt 1024/pps_verify     time:   [2.4511 ms 2.5479 ms 2.6557 ms]                                 
+Found 6 outliers among 100 measurements (6.00%)
+  1 (1.00%) high mild
+  5 (5.00%) high severe
+
+ttt 4096/kzg_setup      time:   [18.758 ms 18.806 ms 18.853 ms]                               
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) low mild
+Benchmarking ttt 4096/pps_setup: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 12.8s, or reduce sample count to 30.
+ttt 4096/pps_setup      time:   [128.07 ms 128.18 ms 128.30 ms]                               
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high mild
+ttt 4096/kzg_commit     time:   [8.3270 ms 8.3480 ms 8.3691 ms]                                
+ttt 4096/pps_commit     time:   [7.4660 ms 7.5111 ms 7.5546 ms]                                
+Found 3 outliers among 100 measurements (3.00%)
+  3 (3.00%) low mild
+ttt 4096/kzg_prove      time:   [8.6882 ms 8.7045 ms 8.7210 ms]                               
+Found 3 outliers among 100 measurements (3.00%)
+  2 (2.00%) low mild
+  1 (1.00%) high mild
+ttt 4096/pps_prove      time:   [7.5056 ms 7.5500 ms 7.5911 ms]                               
+Found 5 outliers among 100 measurements (5.00%)
+  1 (1.00%) low severe
+  4 (4.00%) low mild
+ttt 4096/kzg_verify     time:   [3.8551 ms 3.8785 ms 3.9064 ms]                                 
+Found 20 outliers among 100 measurements (20.00%)
+  1 (1.00%) high mild
+  19 (19.00%) high severe
+ttt 4096/pps_verify     time:   [2.4798 ms 2.5647 ms 2.6562 ms]                                 
+Found 7 outliers among 100 measurements (7.00%)
+  7 (7.00%) high mild
+
+Benchmarking ttt 16384/kzg_setup: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 5.5s, or reduce sample count to 90.
+ttt 16384/kzg_setup     time:   [43.963 ms 44.197 ms 44.451 ms]                                
+Found 9 outliers among 100 measurements (9.00%)
+  8 (8.00%) high mild
+  1 (1.00%) high severe
+Benchmarking ttt 16384/pps_setup: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 49.6s, or reduce sample count to 10.
+ttt 16384/pps_setup     time:   [496.46 ms 496.68 ms 496.92 ms]                                
+Found 6 outliers among 100 measurements (6.00%)
+  5 (5.00%) high mild
+  1 (1.00%) high severe
+ttt 16384/kzg_commit    time:   [28.214 ms 28.346 ms 28.428 ms]                                 
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) low severe
+ttt 16384/pps_commit    time:   [21.063 ms 21.493 ms 21.914 ms]                                 
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) low mild
+ttt 16384/kzg_prove     time:   [26.570 ms 26.606 ms 26.642 ms]                                
+Found 6 outliers among 100 measurements (6.00%)
+  1 (1.00%) low mild
+  5 (5.00%) high mild
+ttt 16384/pps_prove     time:   [23.417 ms 23.782 ms 24.138 ms]                                
+Found 4 outliers among 100 measurements (4.00%)
+  3 (3.00%) low mild
+  1 (1.00%) high mild
+ttt 16384/kzg_verify    time:   [3.8360 ms 3.8590 ms 3.8869 ms]                                  
+Found 17 outliers among 100 measurements (17.00%)
+  5 (5.00%) high mild
+  12 (12.00%) high severe
+ttt 16384/pps_verify    time:   [2.3334 ms 2.3896 ms 2.4533 ms]                                  
+Found 11 outliers among 100 measurements (11.00%)
+  5 (5.00%) high mild
+  6 (6.00%) high severe
+
+Benchmarking ttt 65536/kzg_setup: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 12.0s, or reduce sample count to 40.
+ttt 65536/kzg_setup     time:   [119.55 ms 119.76 ms 119.98 ms]                                
+Found 6 outliers among 100 measurements (6.00%)
+  1 (1.00%) low mild
+  5 (5.00%) high mild
+Benchmarking ttt 65536/pps_setup: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 196.1s, or reduce sample count to 10.
+ttt 65536/pps_setup     time:   [1.9610 s 1.9615 s 1.9620 s]                                   
+Found 5 outliers among 100 measurements (5.00%)
+  1 (1.00%) high mild
+  4 (4.00%) high severe
+Benchmarking ttt 65536/kzg_commit: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 8.7s, or reduce sample count to 50.
+ttt 65536/kzg_commit    time:   [85.258 ms 86.515 ms 87.748 ms]                                 
+Benchmarking ttt 65536/pps_commit: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 7.4s, or reduce sample count to 60.
+ttt 65536/pps_commit    time:   [67.180 ms 69.418 ms 71.715 ms]                                 
+Benchmarking ttt 65536/kzg_prove: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 9.2s, or reduce sample count to 50.
+ttt 65536/kzg_prove     time:   [91.183 ms 92.744 ms 94.239 ms]                                
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) low mild
+Benchmarking ttt 65536/pps_prove: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 7.3s, or reduce sample count to 60.
+ttt 65536/pps_prove     time:   [70.526 ms 72.857 ms 75.110 ms]                                
+ttt 65536/kzg_verify    time:   [3.9144 ms 3.9558 ms 4.0015 ms]                                  
+Found 12 outliers among 100 measurements (12.00%)
+  4 (4.00%) high mild
+  8 (8.00%) high severe
+ttt 65536/pps_verify    time:   [2.6036 ms 2.7915 ms 3.0044 ms]                                  
+Found 14 outliers among 100 measurements (14.00%)
+  3 (3.00%) high mild
+  11 (11.00%) high severe
+
+Benchmarking ttt 262144/kzg_setup: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 39.4s, or reduce sample count to 10.
+ttt 262144/kzg_setup    time:   [382.56 ms 383.04 ms 383.47 ms]                                 
+Found 9 outliers among 100 measurements (9.00%)
+  2 (2.00%) low severe
+  3 (3.00%) low mild
+  4 (4.00%) high mild
+Benchmarking ttt 262144/pps_setup: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 780.0s, or reduce sample count to 10.
+ttt 262144/pps_setup    time:   [7.8018 s 7.8030 s 7.8045 s]                                    
+Found 12 outliers among 100 measurements (12.00%)
+  3 (3.00%) high mild
+  9 (9.00%) high severe
+Benchmarking ttt 262144/kzg_commit: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 26.2s, or reduce sample count to 10.
+ttt 262144/kzg_commit   time:   [254.35 ms 259.97 ms 266.19 ms]                                  
+Found 11 outliers among 100 measurements (11.00%)
+  3 (3.00%) high mild
+  8 (8.00%) high severe
+Benchmarking ttt 262144/pps_commit: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 22.7s, or reduce sample count to 20.
+ttt 262144/pps_commit   time:   [226.45 ms 229.33 ms 232.30 ms]                                  
+Benchmarking ttt 262144/kzg_prove: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 25.8s, or reduce sample count to 10.
+ttt 262144/kzg_prove    time:   [266.29 ms 271.24 ms 276.78 ms]                                 
+Found 11 outliers among 100 measurements (11.00%)
+  5 (5.00%) high mild
+  6 (6.00%) high severe
+Benchmarking ttt 262144/pps_prove: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 22.8s, or reduce sample count to 20.
+ttt 262144/pps_prove    time:   [231.32 ms 234.58 ms 237.94 ms]                                 
+Found 5 outliers among 100 measurements (5.00%)
+  4 (4.00%) high mild
+  1 (1.00%) high severe
+ttt 262144/kzg_verify   time:   [3.9291 ms 4.1421 ms 4.4016 ms]                                   
+Found 17 outliers among 100 measurements (17.00%)
+  2 (2.00%) high mild
+  15 (15.00%) high severe
+ttt 262144/pps_verify   time:   [2.4148 ms 2.5119 ms 2.6203 ms]                                   
+Found 16 outliers among 100 measurements (16.00%)
+  8 (8.00%) high mild
+  8 (8.00%) high severe

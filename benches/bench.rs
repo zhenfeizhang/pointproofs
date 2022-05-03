@@ -208,23 +208,23 @@ where
     let dim = M;
     let mut ttt = c.benchmark_group(format!("ttt {}", dim));
 
-    // =================
-    // setup
-    // =================
-    let mut rng = test_rng();
-    let bench_str = "kzg_setup";
-    ttt.bench_function(bench_str, move |b| {
-        b.iter(|| {
-            let _ = KZG10::<E, P>::setup(dim, false, &mut rng).unwrap();
-        })
-    });
-    let mut rng = test_rng();
-    let bench_str = "pps_setup";
-    ttt.bench_function(bench_str, move |b| {
-        b.iter(|| {
-            let _ = StructuredReferenceString::<E, M>::new_srs_for_testing(&mut rng);
-        });
-    });
+    // // =================
+    // // setup
+    // // =================
+    // let mut rng = test_rng();
+    // let bench_str = "kzg_setup";
+    // ttt.bench_function(bench_str, move |b| {
+    //     b.iter(|| {
+    //         let _ = KZG10::<E, P>::setup(dim, false, &mut rng).unwrap();
+    //     })
+    // });
+    // let mut rng = test_rng();
+    // let bench_str = "pps_setup";
+    // ttt.bench_function(bench_str, move |b| {
+    //     b.iter(|| {
+    //         let _ = StructuredReferenceString::<E, M>::new_srs_for_testing(&mut rng);
+    //     });
+    // });
 
     // =================
     // commit
